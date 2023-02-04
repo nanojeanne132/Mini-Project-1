@@ -3,15 +3,16 @@ body {
   font-family: 'Prompt', sans-serif;
 }
 
+/* button */
 
-.vision
+.btn-pink 
 {
-
+  color: grey;
+  background-color: #ffcde8;
+  border-color: #ffcde8;
 }
-.mission
-{
+/* /button */
 
-}
 /* background-color */
 .bg-beige
 {
