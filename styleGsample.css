@@ -39,6 +39,11 @@ body {
 {
   color: black;
 }
+.fc-purple
+{
+  color: #4e0764
+}
+
 /* font-color */
 
 /* hero */
@@ -195,14 +200,27 @@ ul li a:hover
   background-color: rgba(255, 255, 255, 0);
   color: auto;  
 }
+/* /box */
 
+/* border */
 .border
 {
   box-sizing: border-box;
   height: auto;
   width: auto;
   padding: 2.5rem 3rem 2.5rem 3rem;
-  border-radius: 50%;
+  border-radius: 50% 0 50% 0;
+  align-items: center;
+  border-color: #e47381;
+}
+
+.border-2
+{
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  padding: 2.5rem 3rem 2.5rem 3rem;
+  border-radius: 50% 0 50% 50%;
   align-items: center;
   border-color: #e47381;
 }
@@ -215,7 +233,7 @@ ul li a:hover
   height: 6in;
   width: 5in;
   padding: 2rem 3rem 2rem 3rem;
-  border-radius: 50%;
+  border-radius: 50% 0 50% 0;
   align-items: center;
   color: #e47381;
 }
@@ -228,7 +246,7 @@ ul li a:hover
   -moz-box-shadow: 1px 2px 28px 6px rgba(255,255,255,0.46) inset;
 }
 
-/* box */
+/* border */
 
 
 /* display style */
@@ -283,6 +301,12 @@ h4
 .ts-2
 {
   text-shadow: 4px -5px 2px rgba(15,163,221,1);
+}
+
+.heading
+{
+  font-weight: 700;
+  color: grey;
 }
 
 

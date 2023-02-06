@@ -36,7 +36,7 @@
     <nav class="navbar navbar-dark fixed-top navbar-expand-lg sticky-top container-fluid df p-md-2">
 
       <div class="container d-flex">
-        <a href="#" class="navbar-brand mb-0 h1 d-flex" role="button"><img src="pictures/bclogo.png" style="width: 100px; height: 60px;" class="top-0 mt-1 offset-1"><h1>PBCF</h1>
+        <a href="#" class="navbar-brand mb-0 h1 d-flex" role="button"><img src="pictures/bclogo.png" style="width: 100px; height: 60px;" class="top-0 mt-1 offset-1"><h1 class="fc-purple">PBCF</h1>
         </a>
        
 
@@ -55,11 +55,11 @@
         <div class="collapse navbar-collapse navbar-c" id="navbarNav">
           <div class="mx-auto">
             <ul class="navbar-nav" id="navbarNav">
-              <li class="nav-item text-light mx-1"><a href="#Home">Home</a></li>
-              <li class="nav-item text-light mx-1"><a href="#aboutus">About Us</a></li>
-              <li class="nav-item text-light mx-1"><a href="#programs">Programs</a></li>
-              <li class="nav-item text-light mx-1"><a href="#">Donate</a></li>
-              <li class="nav-item text-light mx-1"><a href="#">Connect with us</a></li>
+              <li class="nav-item mx-1"><a href="#Home" class="fc-purple">Home</a></li>
+              <li class="nav-item mx-1"><a href="#aboutus" class="fc-purple">About Us</a></li>
+              <li class="nav-item mx-1"><a href="#programs" class="fc-purple">Programs</a></li>
+              <li class="nav-item mx-1"><a href="#" class="fc-purple">Donate</a></li>
+              <li class="nav-item mx-1"><a href="#" class="fc-purple">Connect with us</a></li>
             </ul>
 
       </div>
@@ -70,7 +70,7 @@
 <!-- banner image -->
     <div class="hero w-100 vh-100 min-vh-150 d-flex  align-items-center justify-content-sm-center justify-content-lg-start justify-content-md-start" id="Home">
     <div class="marginT-3 marginL-2">
-      <h2 class="">KNOWING IT <strong>EXISTS</strong>, IS NOT <strong>ENOUGH</strong>.</h1>
+      <h2 class="fc-purple">KNOWING IT <strong>EXISTS</strong>, IS NOT <strong>ENOUGH</strong>.</h1>
     </div>
   </div>
   </header>
@@ -81,13 +81,13 @@
         <div class="container">
           <div>
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#aboutus" aria-expanded="false" aria-controls="aboutus">
-              <h1 class="fc-b">About Us</h1>
+              <h1 class="fc-purple fw-bolder">About Us</h1>
             </button>
           </div>
             <div style="min-height: 120px;">
               <div class="collapse collapse-horizontal" id="aboutus">
 
-                <span class="fc-g card-body">
+                <span class="fc-g card-body fw-bold">
                 Philippine Breast Cancer Foundation is a non-profit, volunteeer based organization dedicated to provide aid and support to breast cancer patients founded on the year 2022. It composes of 1000+ members all around the nation.
                 </span>
               </div>
@@ -97,12 +97,12 @@
         <div class="border d-flex">
             <div>
               <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#ourvision" aria-expanded="false" aria-controls="ourvision">
-              <h1 class="fc-b">Our Vision</h1>
+              <h1 class="fc-purple fw-bolder">Our Vision</h1>
               </button>
             </div>
             <div class="mx-sm-3" style="min-height: 200px;">
               <div class="collapse collapse-horizontal" id="ourvision">
-                <span class="fc-g card-body">
+                <span class="fc-g card-body fw-bold">
               Create one of the most sustainable network of bringing top access to breast cancer patients with quality healthcare, facilities, and education. 
               </span>
               </div>
@@ -112,7 +112,7 @@
         <div class="border d-flex mb-md-5">
           <div>
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#ourmission" aria-expanded="false" aria-controls="ourmission">
-              <h1 class="fc-b">Our Mission</h1>
+              <h1 class="fc-purple fw-bold">Our Mission</h1>
             </button>
           </div>
           <div class="mx-sm-3" style="min-height: 200px;">
@@ -143,52 +143,89 @@
 
 </div>
 
-<div class="container-fluid">
-  <div class="container d-md-flex d-sm-block justify-content-evenly ">
+<div class="container-fluid d-flex">
+ <div class= "container d-lg-flex d-sm-block justify-content-md-evenly">
 
     
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+  <div class="card mt-sm-3" style="width: 18rem;">
+    
     <div class="card-body">
-      <h5 class="card-title">Early Detection</h5>
+      <h3 class="card-title mt-3">Early Detection</h3>
       <p class="card-text fc-g">The organization is geared towards to follow reliable detection and efficient procedures to screen potential carrier of the disease.</p>
-      <a href="#" class="btn btn-pink align-items-end">Get Diagnosed</a>
+      
+    </div>
+    <div class="card-body align-content-end">
+      <a href="#" class="btn btn-pink fw-bold">Self-Diagnose</a>
     </div>
   </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+  <div class="card mt-sm-3" style="width: 18rem;">
+   
     <div class="card-body">
-      <h5 class="card-title">Mammograms</h5>
+      <h3 class="card-title mt-3">Mammograms</h3>
       <p class="card-text fc-g">The organization is equipped with the advanced cancer scanning tool that would detect grown tumors in the breast.</p>
-      <a href="#" class="btn btn-pink">Get scanned</a>
+      
+    </div>
+    <div class="card-body align-content-end">
+      <a href="#" class="btn btn-pink fw-bold">Get Scanned</a>
     </div>
   </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+</div>
+
+<div class= "container d-lg-flex d-sm-block justify-content-md-evenly">
+
+  <div class="card mt-sm-3" style="width: 18rem;">
+    
     <div class="card-body">
-      <h5 class="card-title">Educate</h5>
+      <h3 class="card-title mt-3">Educate</h3>
       <p class="card-text fc-g">With our knowledge and experience, we guide individuals to lean towards not just about available remedies but also to give them mitigation instances which lead them to a proper and healthy lifestyle.</p>
-      <a href="#" class="btn btn-pink">Get Enlightened</a>
+      
+    </div>
+    <div class="card-body align-content-end">
+      <a href="#" class="btn btn-pink fw-bold">Get Enlightened</a>
     </div>
   </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+  <div class="card mt-sm-3" style="width: 18rem;">
+    
     <div class="card-body">
-      <h5 class="card-title">Support</h5>
-      <p class="card-text fc-g">Inline with our Mission and Vision, we aim and give the best we can, to show our support with their breast cancer journey. </p>
-      <a href="#" class="btn btn-pink">Be an advocate</a>
+      <h3 class="card-title mt-3">Support</h3>
+        <p class="card-text fc-g">Inline with our Mission and Vision, we aim and give the best we can, to show our support with their breast cancer journey. </p>
+      
+    </div>
+    <div class="card-body align-content-end">
+      <a href="#" class="btn btn-pink fw-bold">Be an advocate</a>
     </div>
   </div>
 
+  </div>
+  </div>
+<!-- /Our Programs -->
+
+<!-- Get Scanned -->
+<div class="container-fluid">
+  <div class="container">
+    <div class="marginT-5">
+      <div class="col-m-12 card-body card">
+        <h1 class="heading my-5">Self-Diagnose</h1>
+        <div class="row-cols-1">
+          <h2 class="fw-bold">
+            Early Detection
+          </h2>
+          <span>
+            Being able to self-assess around the breast area, are recommended to have a self-test. One way to contest the early signs of having breast cancer. Early detection of Breast Cancer is an effective way to manage its risk at the early stage. Thus, it would make the cancer easier to treat.
+          </span>
+
+        </div>
+      </div>
+    </div>
   </div>
 
 
 </div>
 
-<!-- /Our Programs -->
+<!-- Get Scanned -->
 
 
 
