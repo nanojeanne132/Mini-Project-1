@@ -24,7 +24,7 @@ body {
 /* font-color */
 .fc-p
 {
-  color: #E6A5AD;
+  color: #e6a5adf1;
 }
 
 .fc-g
@@ -42,6 +42,10 @@ body {
 .fc-purple
 {
   color: #4e0764
+}
+.fc-purpleT
+{
+  color: #4e0764e4;
 }
 
 /* font-color */
