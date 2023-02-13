@@ -1,5 +1,5 @@
 body {
-  background: #ffcde8 ;
+  background-color: #ffcde8 ;
   font-family: 'Prompt', sans-serif;
 }
 
@@ -77,6 +77,14 @@ nav
 
 
 /* /section */
+
+/* Card-body */
+.cardBW
+{
+  padding-bottom: 48px;
+
+}
+/* Card-body */
 
 /* Image */
 .portrait
