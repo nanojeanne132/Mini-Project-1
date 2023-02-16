@@ -20,6 +20,21 @@ body {
   border-radius: 4px;
 }
 
+#donatenow
+{
+  padding: 16px 23px 16px 23px;
+  border-radius: 30px;
+  border: 0 solid #4e0764;
+  color: #ffcde8;
+  background-color: #4e0764;
+  font-size: small;
+}
+
+#donatenow:hover
+{
+  background-color: #4e0764d6;
+}
+
 /* /button */
 
 /* background-color */
@@ -282,6 +297,12 @@ ul li a:hover
   border-color: #e47381;
 }
 
+#subscribe
+{
+  padding: 2.5rem 1rem 2.5rem 1rem;
+}
+
+
 .border-2
 {
   box-sizing: border-box;
@@ -359,6 +380,12 @@ ul li a:hover
 {
   font-size: large ;
 }
+
+.fs-2
+{
+  font-size: 10px;
+}
+
 h4
 {
   font-weight: 400;
