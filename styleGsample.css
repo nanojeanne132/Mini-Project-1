@@ -121,7 +121,7 @@ body {
 
 .bgmail
 {
-  background-image: url(C:/xampp/htdocs/MiniProject1/Pictures/bgmail.png);
+  background-image: url(Pictures/bgmail.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
