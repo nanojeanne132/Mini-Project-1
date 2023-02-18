@@ -367,9 +367,9 @@ nav ul li:hover .sub-menu-1 ul li a:hover
 /* hover */
   .card:hover
   {
-    transform: scale(1.06) ;
--webkit-transform: scale(1.06) ;
--moz-transform: scale(1.06) ;
+    transform: scale(1.02) ;
+-webkit-transform: scale(1.02) ;
+-moz-transform: scale(1.02) ;
   }
 
 /* hover */
