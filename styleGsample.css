@@ -55,6 +55,11 @@ body {
   background-color: beige;
 }
 
+.bg-purple
+{
+  background-color: #4e0764;
+}
+
 /* /background-color */
 
 /* font-color */
@@ -115,8 +120,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position: center;
-  min-width: 50%;
+  background-position: 97%;
+  min-width: 70%;
 }
 
 .bgmail
